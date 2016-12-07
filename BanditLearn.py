@@ -283,7 +283,7 @@ class BanditLearn:
             #averageRewardArray.append(averageReward)
             rewardArray.append(reward)
             
-            if (armIndex == self.bandit.bestArm()):
+            if (armIndex == self.bandit.bestArm):
                 optimalActionArray.append(1)
             else:
                 optimalActionArray.append(0)
